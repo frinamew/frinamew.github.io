@@ -18,12 +18,11 @@
     background:#000000;
     color:#ffffff;
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden
   }
 
   ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
 }
 
@@ -38,6 +37,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 li a:hover {
@@ -50,16 +50,16 @@ li a:hover {
 
 <body>
 
-  <h1>Frinamew.</h1>
+  <h1 style="display: inline-block; padding: 8px; margin-left: 20px"><span style="color: #fcaa00">F</span>rinamew.</h1>
 
-  <div style="display: inline-block">
+  <div style="display: inline-block; float:right; padding: 16px">
 
     <ul>
-      <li>Home</li>
-      <li>About</li>
-      <li>Services</li>
-      <li>Portfolio</li>
-      <li>Contact</li>
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">Portfolio</a></li>
+      <li><a href="">Contact</a></li>
     </ul>
 
   </div>
