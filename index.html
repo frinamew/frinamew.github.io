@@ -65,7 +65,18 @@ filter: brightness(75%);
 ::-webkit-scrollbar-thumb {
    background:#fc8b00;
 }
-  
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.imageText {
+  position: absolute;
+  top: 50%;
+  transform: translate(20%, -50%);
+}
+
 </style>
 
 </head>
@@ -86,9 +97,10 @@ filter: brightness(75%);
 
   </div>
 
-
-  <h1><span style="color: #fc8b00;">Create with the heart;</span><br> build with the mind.</h1>
-  <img src="headerImg.jpeg" class="bg">
+  <div class="container">
+    <h1 class="imageText"><span style="color: #fc8b00;">Create with the heart;</span><br> build with the mind.</h1>
+    <img src="headerImg.jpeg" class="bg">
+  </div>
 
   <footer>
   <p>&copy; 2023 Frinamew</p>
